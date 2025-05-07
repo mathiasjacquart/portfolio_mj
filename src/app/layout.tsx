@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     apple: [{ url: "/images/logo_portfolio_v3.ico", type: "image/ico" }],
     shortcut: ["/images/logo_portfolio_v3.ico"],
   },
-  manifest: "/manifest.json",
+
   openGraph: {
     title: "Mathias Jacquart | Développeur Web",
     description:

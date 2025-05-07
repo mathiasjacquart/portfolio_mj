@@ -12,12 +12,6 @@ const EMAILJS_CONFIG = {
   publicKey: process.env.NEXT_PUBLIC_PUBLIC_ID,
 };
 
-// Log des variables d'environnement pour le débogage
-console.log("EmailJS Config:", {
-  serviceId: EMAILJS_CONFIG.serviceId,
-  templateId: EMAILJS_CONFIG.templateId,
-  publicKey: EMAILJS_CONFIG.publicKey,
-});
 
 // Validation du formulaire
 const contactSchema = z.object({
