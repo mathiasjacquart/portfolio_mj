@@ -79,8 +79,8 @@ export default function RootLayout({
       <head>
         <link
           rel="icon"
-          href="/images/logo_portfolio_v3.png"
-          type="image/png"
+          href="/images/logo_portfolio_v3.ico"
+          type="image/ico"
         />
         <link rel="apple-touch-icon" href="/images/logo_portfolio_v3.png" />
       </head>
