@@ -12,7 +12,6 @@ const EMAILJS_CONFIG = {
   publicKey: process.env.NEXT_PUBLIC_PUBLIC_ID,
 };
 
-
 // Validation du formulaire
 const contactSchema = z.object({
   name: z.string().min(2, "Le nom doit contenir au moins 2 caractères"),
@@ -74,8 +73,8 @@ const ContactForm = () => {
         EMAILJS_CONFIG.serviceId,
         EMAILJS_CONFIG.templateId,
         {
-          from_name: validatedData.name,
-          from_email: validatedData.email,
+          name: validatedData.name,
+          email: validatedData.email,
           message: validatedData.message,
         }
       );
