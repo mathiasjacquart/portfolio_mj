@@ -3,13 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-.dark {
   --background: #142b2e;
   --foreground: #ededed;
+  --primary: #5eead4;
+  --primary-hover: #2dd4bf;
 }
 
 body {
@@ -27,9 +24,9 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-color: var(--background);
+  background-color: rgb(45 212 191 / 0.1);
   color: var(--foreground);
-  border: 1px solid var(--foreground);
+  border: 1px solid var(--primary);
   border-radius: 0.375rem;
   padding: 0.5rem 1rem;
   width: 100%;
@@ -38,14 +35,14 @@ select {
 input:focus,
 textarea:focus,
 select:focus {
-  outline: 1px solid #5eead4;
-  border-color: #5eead4;
+  outline: 1px solid var(--primary);
+  border-color: var(--primary);
 }
 
 input::placeholder,
 textarea::placeholder {
-  color: var(--foreground);
-  opacity: 0.5;
+  color: rgb(148 163 184);
+  opacity: 0.7;
 }
 
 /* Styles pour la navigation */
@@ -68,6 +65,16 @@ textarea::placeholder {
 }
 
 .nav a:hover .nav-text {
+  color: var(--foreground);
+}
+
+/* Styles pour les icônes sociales */
+.social-icon {
+  color: var(--primary);
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
   color: var(--foreground);
 }
 

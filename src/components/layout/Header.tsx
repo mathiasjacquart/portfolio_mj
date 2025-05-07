@@ -115,7 +115,7 @@ export default function Header() {
       <ul className="ml-1 mt-8 flex items-center" aria-label="Social media">
         <li className="mr-5 shrink-0 text-xs">
           <a
-            className="block hover:text-slate-200"
+            className="block text-slate-400 hover:text-slate-200"
             href="https://github.com/mathiasjacquart"
             target="_blank"
             rel="noreferrer noopener"
@@ -136,7 +136,7 @@ export default function Header() {
         </li>
         <li className="mr-5 shrink-0 text-xs">
           <a
-            className="block hover:text-slate-200"
+            className="block text-slate-400 hover:text-slate-200"
             href="https://www.linkedin.com/in/mathiasjacquart/"
             target="_blank"
             rel="noreferrer noopener"
@@ -157,7 +157,7 @@ export default function Header() {
         </li>
         <li className="mr-5 shrink-0 text-xs">
           <a
-            className="block hover:text-slate-200"
+            className="block text-slate-400 hover:text-slate-200"
             href="https://codepen.io/mathiasjacquart"
             target="_blank"
             rel="noreferrer noopener"

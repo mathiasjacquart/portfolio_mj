@@ -162,7 +162,7 @@ const ContactForm = () => {
                 onChange={handleChange}
                 required
                 placeholder="Votre nom"
-                className={`w-full px-4 py-2 bg-slate-800 border ${
+                className={`w-full px-4 py-2 border ${
                   errors.name ? "border-red-500" : "border-slate-700"
                 } rounded-md focus:ring-2 focus:ring-teal-500 focus:border-transparent text-slate-200`}
               />
@@ -186,7 +186,7 @@ const ContactForm = () => {
                 onChange={handleChange}
                 required
                 placeholder="Votre email"
-                className={`w-full px-4 py-2 bg-slate-800 border ${
+                className={`w-full px-4 py-2  border ${
                   errors.email ? "border-red-500" : "border-slate-700"
                 } rounded-md focus:ring-2 focus:ring-teal-500 focus:border-transparent text-slate-200`}
               />
@@ -210,7 +210,7 @@ const ContactForm = () => {
                 required
                 rows={5}
                 placeholder="Votre message"
-                className={`w-full px-4 py-2 bg-slate-800 border ${
+                className={`w-full px-4 py-2  border ${
                   errors.message ? "border-red-500" : "border-slate-700"
                 } rounded-md focus:ring-2 focus:ring-teal-500 focus:border-transparent text-slate-200`}
               />
