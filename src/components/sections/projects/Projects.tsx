@@ -25,7 +25,7 @@ export default function Projects() {
         "Gestion panier & paiement : Intégration Stripe, commandes sécurisées",
         "Authentification : Connexion via JWT, rôles utilisateur (admin/client)",
       ],
-      image: "",
+      image: "/images/shopcart.png",
       link: "https://shopcart-omega.vercel.app/",
     },
     {
