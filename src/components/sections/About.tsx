@@ -13,38 +13,28 @@ export default function About() {
       </div>
       <div>
         <p className="mb-4 text-slate-300">
-          Développeur front-end passionné par l’univers du design web, je mets
-          toute mon énergie à créer des interfaces à la fois belles, fluides et
-          accessibles. Ce qui me fait vibrer, c’est de transformer une maquette
-          en une expérience utilisateur vivante, agréable et cohérente. J’adore
-          concevoir des parcours intuitifs, peaufiner chaque détail visuel,
-          assurer la réactivité sur tous les écrans, et optimiser chaque
-          composant pour la performance et le SEO.
+          <strong className="text-slate-300">Développeur front-end passionné</strong>, je crée des <strong className="text-slate-300">interfaces web belles,
+          fluides et accessibles</strong>. J'aime transformer une maquette en <strong className="text-slate-300">expérience
+          utilisateur concrète</strong> : <strong className="text-slate-300">responsive, optimisée, cohérente et
+          performante</strong>.
         </p>
         <p className="mb-4 text-slate-300">
-          Avant d’être développeur, j’ai suivi un parcours en science politique
-          qui m’a donné une solide capacité d’analyse et un vrai intérêt pour
-          les enjeux sociétaux. J’ai ensuite multiplié les expériences
-          professionnelles variées, enchaînant les jobs alimentaires avec
-          sérieux et engagement. Le déclic pour le développement web est venu de
-          mon père, lui-même développeur. En autodidacte d’abord, puis via une
-          formation full stack, j’ai découvert une vraie passion pour ce métier,
-          qui allie rigueur, logique, créativité et apprentissage constant.
+          Avant le code, j'ai étudié la <strong className="text-slate-300">science politique</strong>, ce qui m'a donné le
+          goût de l'analyse et des enjeux de société. J'ai ensuite bossé dans
+          différents jobs, toujours avec sérieux, jusqu'au déclic : mon père,
+          développeur, m'a transmis sa <strong className="text-slate-300">passion</strong>. J'ai appris en <strong className="text-slate-300">autodidacte</strong>, puis
+          via une <strong className="text-slate-300">formation full stack</strong>.
         </p>
         <p className="mb-4 text-slate-300">
-          Aujourd’hui, je recherche une équipe avec laquelle je pourrais monter
-          en compétence, relever des défis techniques et contribuer à des
-          projets concrets. J’ai une grande envie d’apprendre en collaborant, de
-          progresser sur les aspects d’architecture logicielle et d’approfondir
-          ma compréhension des bonnes pratiques en développement.
+          Je veux <strong className="text-slate-300">intégrer une équipe</strong> avec qui <strong className="text-slate-300">progresser techniquement</strong>, relever
+          des <strong className="text-slate-300">défis concrets</strong>, apprendre sur l'<strong className="text-slate-300">architecture logicielle</strong> et
+          m'impliquer à fond dans des <strong className="text-slate-300">projets utiles</strong>.
         </p>
         <p className="mb-4 text-slate-300">
-          En dehors du code, je suis quelqu’un de très sociable, ouvert et
-          curieux, bien qu’un peu réservé au début. J’aime le travail d’équipe,
-          échanger des idées et apprendre des autres. Je suis très motivé, j’ai
-          “les crocs” comme on dit : envie d’avancer, de construire des projets
-          collectifs stimulants et de m’impliquer pleinement dans une aventure
-          professionnelle.{" "}
+          Je suis <strong className="text-slate-300">curieux, sociable</strong> (même si un peu réservé au début), j'adore
+          le <strong className="text-slate-300">travail d'équipe</strong>, <strong className="text-slate-300">partager des idées</strong> et <strong className="text-slate-300">apprendre des autres</strong>. Et
+          surtout, j'ai la dalle : j'ai envie d'<strong className="text-slate-300">avancer, de construire et de
+          m'investir à 100 %</strong>.
         </p>
       </div>
     </section>
