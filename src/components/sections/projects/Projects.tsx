@@ -26,6 +26,7 @@ export default function Projects() {
         "Authentification : Connexion via JWT, rôles utilisateur (admin/client)",
       ],
       image: "/images/shopcart.jpg",
+      link: "https://shopcart-omega.vercel.app/",
     },
     {
       title: "Fest Connect",
@@ -47,6 +48,7 @@ export default function Projects() {
         "Panneau admin : Modération, gestion des utilisateurs",
       ],
       image: "/images/festconnect-e33_v3KB.png",
+      link: "https://festconnect.vercel.app/",
     },
     {
       title: "Chloé Jacquart Photographie",
@@ -60,6 +62,7 @@ export default function Projects() {
         "Gestion des rendez-vous en ligne",
       ],
       image: "/images/chloejacquart-CKD4vh_g.png",
+      link: "https://dev.chloejacquart.com/",
     },
     {
       title: "Quizz Musical",
@@ -74,6 +77,7 @@ export default function Projects() {
         "Chat en temps réel entre joueurs",
       ],
       image: "/images/quizz-DM-m24cQ.png",
+      link: "https://quizz-musical.onrender.com/",
     },
     {
       title: "Portfolio Personnel",
@@ -85,6 +89,7 @@ export default function Projects() {
         "Contact : Formulaire de contact et liens vers GitHub, LinkedIn, etc.",
       ],
       image: "/images/portfolio_v2.png",
+      link: "https://mathias-jacquart.com/",
     },
   ];
 

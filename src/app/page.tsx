@@ -1,4 +1,5 @@
 "use client";
+import "./globals.css";
 import About from "@/components/sections/About";
 import Experience from "@/components/sections/experiences/Experience";
 import Skills from "@/components/sections/Skills";

@@ -5,6 +5,7 @@ interface ProjectItemProps {
   stack: string[];
   features: string[];
   image: string;
+  link: string;
 }
 
 export default function ProjectItem({
@@ -14,6 +15,7 @@ export default function ProjectItem({
   stack,
   features,
   image,
+  link,
 }: ProjectItemProps) {
   return (
     <li className="mb-12">
@@ -23,7 +25,7 @@ export default function ProjectItem({
           <h3 className="font-medium leading-snug text-slate-200">
             <a
               className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
-              href="#"
+              href={link}
               target="_blank"
               rel="noreferrer"
             >
