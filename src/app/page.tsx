@@ -7,6 +7,7 @@ import Projects from "@/components/sections/projects/Projects";
 import CursorLight from "@/components/ui/CursorLight";
 import Header from "@/components/layout/Header";
 import ContactForm from "@/components/sections/ContactForm";
+import Footer from "@/components/layout/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
             <Skills />
             <Projects />
             <ContactForm />
+            <Footer />
           </main>
         </div>
       </div>
