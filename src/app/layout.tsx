@@ -82,7 +82,7 @@ export default function RootLayout({
           href="/images/logo_portfolio_v3.ico"
           type="image/ico"
         />
-        <link rel="apple-touch-icon" href="/images/logo_portfolio_v3.png" />
+        <link rel="apple-touch-icon" href="/images/logo_portfolio_v3.ico" />
       </head>
       <body className={inter.className}>
         {children}
