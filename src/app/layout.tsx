@@ -80,7 +80,7 @@ export default function RootLayout({
         <link
           rel="icon"
           href="/images/logo_portfolio_v3.ico"
-          type="image/ico"
+          type="image/x-icon"
         />
         <link rel="apple-touch-icon" href="/images/logo_portfolio_v3.ico" />
       </head>
