@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   icons: {
-    icon: [{ url: "/logo_portfolio_v3.png", type: "image/png" }],
-    apple: [{ url: "/logo_portfolio_v3.png", type: "image/png" }],
-    shortcut: ["/logo_portfolio_v3.png"],
+    icon: [{ url: "/images/logo_portfolio_v3.png", type: "image/png" }],
+    apple: [{ url: "/images/logo_portfolio_v3.png", type: "image/png" }],
+    shortcut: ["/images/logo_portfolio_v3.png"],
   },
   manifest: "/manifest.json",
   openGraph: {
@@ -77,8 +77,12 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
-        <link rel="icon" href="/logo_portfolio_v3.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/logo_portfolio_v3.png" />
+        <link
+          rel="icon"
+          href="/images/logo_portfolio_v3.png"
+          type="image/png"
+        />
+        <link rel="apple-touch-icon" href="/images/logo_portfolio_v3.png" />
       </head>
       <body className={inter.className}>
         {children}
