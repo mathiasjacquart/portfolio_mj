@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   icons: {
-    icon: [{ url: "/images/logo_portfolio_v3.png", type: "image/png" }],
-    apple: [{ url: "/images/logo_portfolio_v3.png", type: "image/png" }],
-    shortcut: ["/images/logo_portfolio_v3.png"],
+    icon: [{ url: "/images/logo_portfolio_v3.ico", type: "image/ico" }],
+    apple: [{ url: "/images/logo_portfolio_v3.ico", type: "image/ico" }],
+    shortcut: ["/images/logo_portfolio_v3.ico"],
   },
   manifest: "/manifest.json",
   openGraph: {
