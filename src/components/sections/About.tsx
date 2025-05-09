@@ -13,7 +13,7 @@ export default function About() {
       </div>
       <div>
         <p className="mb-4 text-slate-300">
-          <strong className="text-slate-300">Développeur front-end passionné</strong>, je crée des <strong className="text-slate-300">interfaces web belles,
+          <strong className="text-slate-300">Développeur front-end passionné</strong>, je crée des <strong className="text-slate-300">interfaces web
           fluides et accessibles</strong>. J'aime transformer une maquette en <strong className="text-slate-300">expérience
           utilisateur concrète</strong> : <strong className="text-slate-300">responsive, optimisée, cohérente et
           performante</strong>.
