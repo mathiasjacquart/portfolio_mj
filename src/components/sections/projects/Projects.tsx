@@ -48,7 +48,7 @@ export default function Projects() {
         "Panneau admin : Modération, gestion des utilisateurs",
       ],
       image: "/images/festconnect-e33_v3KB.png",
-      link: "fest-connect-one.vercel.app",
+      link: "https://fest-connect-one.vercel.app/",
     },
     {
       title: "Chloé Jacquart Photographie",
